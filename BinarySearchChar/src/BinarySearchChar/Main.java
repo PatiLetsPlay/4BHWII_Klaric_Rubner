@@ -1,3 +1,5 @@
+package BinarySearchChar;
+
 public class Main {
 
         public static int binarySearchChar(int array[], int gesucht, int low, int high) {
