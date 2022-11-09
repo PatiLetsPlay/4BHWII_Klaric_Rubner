@@ -1,6 +1,6 @@
-package BinarySearchChar;
+package _01_BinarySearchChar;
 
-public class Main {
+public class BinarySearchChar {
 
         public static int binarySearchChar(int array[], int gesucht, int low, int high) {
 

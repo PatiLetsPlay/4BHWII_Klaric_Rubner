@@ -1,4 +1,4 @@
-package Rekursiv_Und_Iterativ;
+package _02_Rekursiv_Und_Iterativ;
 
 import java.util.Scanner;
 
@@ -22,6 +22,9 @@ public class Rekursiv_Und_Iterativ {
     {
         if(number == 0){
             return 0;
+        }else if(number <= 0){
+            System.out.println("Fehler keine Minus Zahlen");
+            return -1;
         }
         else{
             return number + sumRekursiv(number - 1);
@@ -35,6 +38,7 @@ public class Rekursiv_Und_Iterativ {
             sum = sum + number;
             number--;
         }
+        //Auch möglich mit for-Schleife
         return sum;
     }
 }
