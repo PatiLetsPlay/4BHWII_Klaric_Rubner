@@ -7,7 +7,7 @@ public class Singleton_Drucker {
     Die Klasse soll nur einmal intitialisert werden können.
     Probieren Sie das Verhalten in einer Main aus.
      */
-    private volatile static Singleton_Drucker instance;
+    private static Singleton_Drucker instance;
     private Singleton_Drucker(){}
     public static Singleton_Drucker getInstance() {
         if (instance == null) {
@@ -20,7 +20,7 @@ public class Singleton_Drucker {
         return instance;
     }
     public String print(){
-        return "I print, I am the instance " + Singleton_Drucker.getInstance().hashCode();
+        return "I print, I am the instance " + Singleton_Drucker.getInstance();
     }
 }
 
