@@ -9,7 +9,5 @@ public abstract class Envelope {
     public double getWeight(){
         return 0;
     }
-    public String getEnvelopeType(){return "";}
-
     void createEnvelope(){};
 }

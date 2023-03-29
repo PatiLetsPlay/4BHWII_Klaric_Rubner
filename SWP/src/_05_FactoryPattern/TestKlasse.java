@@ -20,8 +20,8 @@ public class TestKlasse {
         Envelope envelopeA6 = envelopeFactory.getEnvelope("A6", 1.25);
         envelopeA6.createEnvelope();
 
-        //Envelope envelopeWrongFormat = envelopeFactory.getEnvelope("A7", 2);
-        //envelopeWrongFormat.createEnvelope();
+        Envelope envelopeWrongFormat = envelopeFactory.getEnvelope("A7", 2);
+        envelopeWrongFormat.createEnvelope();
 
         //Envelope envelopeWrongWeight = envelopeFactory.getEnvelope("A4", -3);
         //envelopeWrongWeight.createEnvelope();
