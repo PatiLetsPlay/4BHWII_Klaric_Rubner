@@ -21,7 +21,7 @@ public class Test {
         System.out.println(calzoneHamburg);
 
         Pizza salamiRostock = PizzaFactory.getPizza(PizzaType.Salami, Pizzerien.Rostock);
-        System.out.println(salamiHamburg);
+        System.out.println(salamiRostock);
 
         Pizza hawaiiRostock = PizzaFactory.getPizza(PizzaType.Hawaii, Pizzerien.Rostock);
         System.out.println(hawaiiRostock);

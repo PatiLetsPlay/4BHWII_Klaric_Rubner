@@ -1,7 +1,7 @@
 package _06_FactoryPattern_Pizza;
 
 public abstract class Pizza {
-    private Pizzerien city;
+    public Pizzeria city;
     public abstract String createPizza();
 
     @Override
