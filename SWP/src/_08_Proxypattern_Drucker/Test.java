@@ -3,15 +3,15 @@ package _08_Proxypattern_Drucker;
 public class Test {
     public static void main (String[] args)
     {
-        Drucker drucker = new ProxyDrucker();
+        Printer printer = new ProxyPrinter();
         try
         {
-            //drucker.Drucken(-20);
-            //drucker.Drucken(0);
-            //drucker.Drucken(10);
-            //drucker.Drucken(56);
-            //drucker.Drucken(102);
-            drucker.Drucken(507);
+            //printer.Print(-20);
+            //printer.Print(0);
+            //printer.Print(10);
+            //printer.Print(56);
+            //printer.Print(102);
+            //printer.Print(505);
         }
         catch (Exception e)
         {
