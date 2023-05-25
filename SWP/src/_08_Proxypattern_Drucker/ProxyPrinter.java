@@ -11,6 +11,9 @@ public class ProxyPrinter implements Printer{
         }
         else if(pageCount >= 1 && pageCount <= 49)
         {
+            //erweiterung mit if abfrage, ob er einen Drucker auswählen will
+            //(1) SchwarzWeiß (2) Color (3) Laserdrucker ihre auswahl?
+
             _printer = new PrinterColor();
         }
         else if(pageCount >= 50 && pageCount <= 99)
