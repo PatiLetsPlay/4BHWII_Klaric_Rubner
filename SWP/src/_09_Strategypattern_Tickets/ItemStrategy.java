@@ -8,5 +8,5 @@ public interface ItemStrategy {
 
     public void setTaxAmount(double taxAmount);
 
-    public String ToString();
+    public String toString();
 }

@@ -19,10 +19,8 @@ public class ShoppingCart {
     }
 
     public void getShoppingCartItems(){
-        int x = 0;
-        for(ItemStrategy item : items){
-            x++;
-            System.out.println("Item" + x + ": " + item.ToString());
+        for(int i = 0; i< items.size(); i++){
+            System.out.println("Item " + (i + 1) + ": " + items.get(i));
         }
     }
     public void calculateTotal(){

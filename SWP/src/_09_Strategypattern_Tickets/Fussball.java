@@ -28,7 +28,7 @@ public class Fussball implements ItemStrategy{
     }
 
     @Override
-    public String ToString(){
+    public String toString(){
         return "ItemCode: " + this.code + " ItemPrice: " + this.price + " StartPrice: " + this.startPrice + " TaxAmount: " + taxAmount;
     }
 }
